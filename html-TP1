@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="hhh.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"> 
+    <title>Professional Web Site - SELMI REDOUANE</title>
+</head>
+<body>
+
+    <nav>
+        <a href="#"><i class="icon fa-solid fa-house"></i> home</a>
+        <a href="#"><i class="icon fa-solid fa-message"></i> who we are?</a>
+        <a href="#"><i class="icon fa-solid fa-gear"></i> settings</a>
+        <a href="#"><i class="icon fa-solid fa-user"></i> help</a>
+        <a href="#"><i class="icon fa-solid fa-image"></i> image</a>
+        <span class="nav-indicator"></span>
+    </nav>
+
+    <div class="welcome">
+        <h1>Welcome to my Web Site</h1>
+    </div>
+
+    <div class="module">
+        web development (lab1)
+    </div>
+
+    <div class="main-container">
+        <div class="info-card">
+            <div class="info-row">
+                <span class="title">Full Name:</span>
+                <span class="data">Selmi Redouane</span>
+            </div>
+            <div class="info-row">
+                <span class="title">Age:</span>
+                <span class="data">19 years old</span>
+            </div>
+            <div class="info-row">
+                <span class="title">Class:</span>
+                <span class="data">2nd LMD Computer Science</span>
+            </div>
+            <div class="info-row">
+                <span class="title">University:</span>
+                <span class="data">University of EL OUED</span>
+            </div>
+           <div class="social-links">
+                <a href="#" class="social-icon"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" class="social-icon"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#" class="social-icon"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#" class="social-icon"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+
+        <div class="image-section">
+            <div class="neon-wrapper">
+                <img src="home.png" alt="Profile" class="styled-image">
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
