@@ -27,7 +27,9 @@ nav {
     border-radius: 15px;
     backdrop-filter: blur(15px);
     border: 1px solid rgba(255, 255, 255, 0.1);
+
 }
+
 
 nav a {
     position: relative;
@@ -69,7 +71,9 @@ h1 {
     text-align: center;
     font-style: italic;
     font-family: serif;
+
 }
+
 
 .module {
     color: #ff4d4d;
@@ -78,7 +82,10 @@ h1 {
     text-decoration: underline;
     text-align: center;
     font-family:' monospace';
+
 }
+
+
 
 .main-container {
     display: flex;
@@ -88,7 +95,10 @@ h1 {
     width: 100%;
     padding: 20px;
     flex-wrap: wrap;
+
 }
+
+
 
 .info-card {
     background: rgba(255, 255, 255, 0.03);
@@ -99,13 +109,13 @@ h1 {
     box-shadow: 0 20px 50px rgba(0,0,0,0.5);
     transition: 0.4s ease-in-out;
 }
-
 .info-card:hover {
-    transform: translateY(-15px) rotateX(5deg) rotateY(5deg);
+   margin-top: -30px ;
     background: rgba(255, 255, 255, 0.08);
     border-color: rgba(0, 210, 255, 0.5);
     box-shadow: 0 40px 80px rgba(0, 210, 255, 0.2);
 }
+
 
 .info-row { margin-bottom: 20px; }
 .title { color: #00ff1e; font-weight: bold; margin-right: 10px; font-size: 16px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
@@ -173,4 +183,40 @@ h1 {
     100% {
         background-position: 0% 50%;
     }
+}
+
+nav, h1, .module, .neon-wrapper, .info-card {
+    opacity: 0;
+    animation: slideDownFade 1s ease forwards;
+}
+
+@keyframes slideDownFade {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+nav {
+    animation-delay: 0.2s;
+}
+
+h1 {
+    animation-delay: 0.8s;
+}
+
+.module {
+    animation-delay: 1.4s;
+}
+
+.neon-wrapper {
+    animation-delay: 2s;
+}
+
+.info-card {
+    animation-delay: 2.6s;
 }
